@@ -782,7 +782,7 @@ MATCHBOXES ARE ALSO IN FANCY.DM
 
 /obj/item/weapon/vape
 	name = "\improper E-Cigarette"
-	desc = "More commonly referred to as a mouth fedora"
+	desc = "More commonly referred to as a mouth fedora."
 	icon = 'icons/obj/items.dmi'
 	icon_state = "vape"
 	var/datum/effect/effect/system/smoke_spread/smoke = new()
@@ -851,3 +851,4 @@ MATCHBOXES ARE ALSO IN FANCY.DM
 		user.put_in_hands(B)
 		beaker = null
 		to_chat(user, "You remove \the [B] from \the [src].")
+
