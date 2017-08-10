@@ -97,6 +97,7 @@ Radio:
 1443 - Confession Intercom
 1349 - Botany, chef, bartender
 1347 - Cargo techs
+1361 - Entertainment
 
 Devices:
 1451 - tracking implant
@@ -123,6 +124,7 @@ var/list/radiochannels = list(
 	"Common" = 1459,
 	"AI Private" = 1447,
 	"Deathsquad" = 1441,
+	"Entertainment" = 1361,
 	"Security" = 1359,
 	"Engineering" = 1357,
 	"Command" = 1353,
@@ -146,6 +148,7 @@ var/list/radiochannelsreverse = list(
 	"1353" = "Command",
 	"1357" = "Engineering",
 	"1359" = "Security",
+	"1361" = "Entertainment",
 	"1441" = "Deathsquad",
 	"1447" = "AI Private",
 	"1459" = "Common"
@@ -168,6 +171,7 @@ var/const/COMM_FREQ = 1353 //command, colored gold in chat window
 var/const/SYND_FREQ = 1213
 
 // department channels
+var/const/ENT_FREQ = 1361
 var/const/SEC_FREQ = 1359
 var/const/ENG_FREQ = 1357
 var/const/SCI_FREQ = 1351

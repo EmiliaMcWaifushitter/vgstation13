@@ -310,6 +310,8 @@ var/message_delay = 0 // To make sure restarting the recentmessages list is kept
 					blackbox.msg_engineering += blackbox_msg
 				if(1359)
 					blackbox.msg_security += blackbox_msg
+				if(1361)
+					blackbox.msg_entertainment += blackbox_msg
 				if(1441)
 					blackbox.msg_deathsquad += blackbox_msg
 				if(1345)

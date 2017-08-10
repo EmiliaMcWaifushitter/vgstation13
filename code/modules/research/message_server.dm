@@ -192,6 +192,7 @@ var/obj/machinery/blackbox_recorder/blackbox
 	var/list/msg_medical = list()
 	var/list/msg_engineering = list()
 	var/list/msg_security = list()
+	var/list/msg_entertainment = list()
 	var/list/msg_deathsquad = list()
 	var/list/msg_ert = list()
 	var/list/msg_syndicate = list()
@@ -219,6 +220,7 @@ var/obj/machinery/blackbox_recorder/blackbox
 		BR.msg_medical = msg_medical
 		BR.msg_engineering = msg_engineering
 		BR.msg_security = msg_security
+		BR.msg_entertainment = msg_entertainment
 		BR.msg_deathsquad = msg_deathsquad
 		BR.msg_ert = msg_ert
 		BR.msg_syndicate = msg_syndicate
@@ -262,6 +264,7 @@ var/obj/machinery/blackbox_recorder/blackbox
 	feedback_add_details("radio_usage","MED-[msg_medical.len]")
 	feedback_add_details("radio_usage","ENG-[msg_engineering.len]")
 	feedback_add_details("radio_usage","SEC-[msg_security.len]")
+	feedback_add_details("radio_usage","ENT-[msg_entertainment.len]")
 	feedback_add_details("radio_usage","DTH-[msg_deathsquad.len]")
 	feedback_add_details("radio_usage","ERT-[msg_ert.len]")
 	feedback_add_details("radio_usage","SYN-[msg_syndicate.len]")
